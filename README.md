@@ -30,4 +30,6 @@ It works out of the box, but if you want to change some things, read on.
 
 After each map, the user's "bad points" are reset to 0.
 
+If a player is camping in one spot, he gets one bad point per three seconds. He gets additional points for crouching/proning and holding the sniper rifle (Barrett). In other words, if he is a full-blown camper, he gets three points every three seconds, meaning he'll get warned after just 12 seconds (default value of **Camp_Warn**).
+
 Player is marked as AFK if he is _on_, or _directly under_ his team's spawn point. If he moves from that point, his AFK counter is immediately reset.
